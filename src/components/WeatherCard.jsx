@@ -12,7 +12,7 @@ export default function WeatherCard() {
 
         {/* LEFT BIG CARD */}
         <div className="left-card">
-          <img src="/public/building.jpg" className="left-image" />
+          <img src="/building.jpg" className="left-image" />
 
           {/* Dashed Outline */}
           <div className="dashed-outline"></div>
