@@ -69,13 +69,13 @@
 .feature-card.big {
   height: 330px;
   margin-bottom: 70px;
-  background-image: url(card1.jpg);
+  background-image: url(/public/card1.jpg);
   background-size: cover;
 }
 .feature-card.mid {
   height: 260px;
   align-items:flex-end;
-  background-image: url(card2.jpg);
+  background-image: url(/public/card2.jpg);
   background-size: cover;
   
 }
@@ -83,14 +83,14 @@
 .feature-card.big2 {
   height: 350px;
   margin-bottom: -20px;
-  background-image: url("card5.jpg");
+  background-image: url("/public/card5.jpg");
   background-size: cover;
 }
 .feature-card.mid1 {
   height: 260px;
   align-items:flex-end;
   margin-bottom: 70px;
-  background-image: url(card3.jpg);
+  background-image: url(/public/card3.jpg);
   background-size: cover;
 }
 
@@ -98,7 +98,7 @@
   height: 160px;
   align-items:flex-end;
   margin-bottom: 170px;
-  background-image: url(card4.jpg);
+  background-image: url(/public/card4.jpg);
   background-size: cover;
   font-weight: bold;
 }

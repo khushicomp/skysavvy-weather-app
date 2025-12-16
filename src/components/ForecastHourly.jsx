@@ -30,7 +30,7 @@ export default function ForecastHourly() {
         <div className="phone-wrapper">
           <div className="dotted-arc"></div>
 
-          <img src="/phone.jpg" className="phone-img" />
+          <img src="/public/phone.jpg" className="phone-img" />
 
           {/* Floating clouds */}
           <div className="cloud cloud-left"></div>
