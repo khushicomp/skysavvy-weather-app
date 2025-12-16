@@ -1,25 +1,25 @@
 .sunny-bg {
-  background: url("sunny.jpg") no-repeat center/cover;
+  background: url("/public/sunny.jpg") no-repeat center/cover;
 }
 
 .cloudy-bg {
-  background: url("cloudy.jpg") no-repeat center/cover;
+  background: url("/public/cloudy.jpg") no-repeat center/cover;
 }
 
 .rainy-bg {
-  background: url("rainy.jpg") no-repeat center/cover;
+  background: url("/public/rainy.jpg") no-repeat center/cover;
 }
 
 .storm-bg {
-  background: url("storm.jpg") no-repeat center/cover;
+  background: url("/public/storm.jpg") no-repeat center/cover;
 }
 
 .snow-bg {
-  background: url("snow.jpg") no-repeat center/cover;
+  background: url("/public/snow.jpg") no-repeat center/cover;
 }
 
 .fog-bg {
-  background: url("fog.jpg") no-repeat center/cover;
+  background: url("/public/fog.jpg") no-repeat center/cover;
 }
 
 
