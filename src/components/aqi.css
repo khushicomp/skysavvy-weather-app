@@ -1,0 +1,40 @@
+.aqi-card {
+  padding: 20px;
+  border-radius: 16px;
+  color: #fff;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  margin-left: 13px;
+}
+
+.aqi-value {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.good {
+  background: #00e400;
+}
+
+.moderate {
+  background: #ffff00;
+  color: #000;
+}
+
+.usg {
+  background: #ff7e00;
+}
+
+.unhealthy {
+  background: #ff0000;
+}
+
+.very-unhealthy {
+  background: #8f3f97;
+}
+
+.hazardous {
+  background: #7e0023;
+}

@@ -1,0 +1,16 @@
+.wc-card {
+  text-align: center;
+}
+
+.wc-card h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.wc-details {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}

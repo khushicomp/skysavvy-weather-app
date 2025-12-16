@@ -1,0 +1,151 @@
+/* Main header layout */
+
+
+.header.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  
+  border-radius: 0 0 20px 20px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: transparent;
+  font-family: system-ui;
+}
+
+/* Left, center, right sections */
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  border-radius: 25px;
+  backdrop-filter: blur(42px);
+}
+
+/* Circular icon background */
+.icon-circle {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.icon-circle.small {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-circle i,
+.icon-circle p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Capsule-style components */
+.capsule {
+  background: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  cursor: pointer;
+}
+
+.capsule.dark {
+  background: black;
+  color: white;
+}
+
+/* Capsule text */
+.capsule p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.capsule.dark p {
+  color: white;
+}
+
+.capsule i {
+  font-size: 18px;
+}
+
+/* Right navigation items */
+.header-right .capsule {
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.b{
+  border-radius: 70px;
+  background-color: white;
+  border-color: white;
+}
+
+/* Wraps gear icon */
+.gear-wrapper {
+  position: relative;
+}
+
+/* Popover box */
+.gear-popover {
+  position: absolute;
+  top: 110%;
+  right: 570px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  animation: popIn 0.2s ease;
+  z-index: 1000;
+}
+
+/* Small arrow pointing up */
+.gear-popover::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  transform: rotate(45deg);
+}
+
+/* Animation */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+

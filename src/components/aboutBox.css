@@ -1,0 +1,43 @@
+.about-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.about-box {
+  background: white;
+  width: 360px;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  color: #111;
+}
+
+.about-box h3 {
+  margin-bottom: 10px;
+}
+
+.about-box p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.about-tech {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.about-close {
+  margin-top: 10px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}

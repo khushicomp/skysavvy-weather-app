@@ -1,0 +1,67 @@
+.fd-empty {
+  text-align: center;
+  color: #777;
+}
+
+.fd-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fd-row {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-radius: 16px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+.fd-day {
+  font-size: 16px;
+  color: #222;
+  font-weight: 600;
+  width: 120px;
+}
+
+.fd-icon {
+  width: 40px;
+  font-size: 38px;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+
+.fd-desc {
+  text-transform: capitalize;
+  color: #555;
+  width: 160px;
+}
+
+.fd-temp {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.fd-temp span {
+  color: #777;
+  font-weight: 400;
+}
+
+.icon-hover:hover {
+  transform: scale(1.15);
+}
+
+/* Weather colors */
+.sunny     { color: #f7c948; }
+.cloudy    { color: #90a4ae; }
+.rainy     { color: #4fc3f7; }
+.stormy    { color: #9575cd; }
+.snowy     { color: #b3e5fc; }
+.foggy     { color: #b0bec5; }
+
+.glow {
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+}

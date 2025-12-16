@@ -1,0 +1,171 @@
+.services-section {
+  padding: 80px 40px;
+  background: #f2f3f5;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+
+
+/* Layout */
+.services-content {
+  display: flex;
+  gap: 100px;
+  
+  
+}
+
+/* LEFT IMAGE CARD */
+.left-card {
+  width: 580px;
+  height: 740px;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #cfe3ee, #e8eff4);
+  padding: 20px;
+}
+
+.left-image {
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+/* Dashed outline */
+.dashed-outline {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 2px dashed rgba(255,255,255,0.6);
+  border-radius: 40px;
+}
+
+/* UV index pill */
+.uv-pill {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+
+  background: rgba(255,255,255,0.7);
+  padding: 10px 18px;
+  border-radius: 40px;
+  font-size: 16px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+.uv-pill span {
+  opacity: 0.7;
+}
+
+/* Wind pill */
+.wind-pill {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+
+  background: rgba(255,255,255,0.7);
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 18px;
+  backdrop-filter: blur(4px);
+}
+
+/* Location */
+.location {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* RIGHT SECTION */
+.right-info {
+  width: 520px;
+  text-align: center;
+}
+
+.info-tabs {
+  margin-top: 50px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  opacity: 0.8;
+  justify-content: center;
+}
+
+.info-tabs span {
+  padding: 6px 14px;
+  background: #e6e6e6;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.info-tabs .active {
+  background: white;
+}
+
+.cloud-icon {
+  margin-top: 90px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: 250px;
+  
+}
+
+.data-label {
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.info-title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.read-btn {
+  padding: 12px 26px;
+  border-radius: 40px;
+  border: 1px solid #d0d3d6;
+  background: white;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.slider-dots {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  margin-left: 260px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: black;
+}

@@ -1,0 +1,54 @@
+.fh-empty {
+  text-align: center;
+  color: white;
+}
+
+.fh-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.fh-card {
+  min-width: 90px;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+.fh-time {
+  font-size: 14px;
+  color: #555;
+}
+
+.fh-icon {
+  font-size: 48px;
+  margin: 8px 0;
+  transition: 0.3s ease;
+}
+
+
+.fh-temp {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+.sunny     { color: #f7c948; }  /* Yellow */
+.cloudy    { color: #90a4ae; }  /* Grey */
+.rainy     { color: #4fc3f7; }  /* Sky Blue */
+.stormy    { color: #9575cd; }  /* Purple */
+.snowy     { color: #b3e5fc; }  /* White Blue */
+.foggy     { color: #b0bec5; }  /* Mist Grey */
+
+/* Soft glow effect */
+.glow {
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.6));
+}
+
+/* Hover animation */
+.icon-hover:hover {
+  transform: scale(1.15);
+}

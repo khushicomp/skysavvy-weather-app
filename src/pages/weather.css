@@ -1,0 +1,99 @@
+.weather-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-image: url("image3.jpg");
+  background-size: cover;
+
+}
+
+.weather-title {
+  margin-top: 100px;
+  font-size: 42px;
+  font-weight: 800;
+  
+  color: #111;
+  text-align: left;
+}
+
+.weather-subtitle {
+  color: black;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 19px;
+  margin-top: -15px;
+  
+}
+
+.weather-container{
+  margin-top: 80px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
+/* Blocks */
+.section-block {
+   background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);     /* frosted glass */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 18px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+  width: 450px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 300px;
+}
+
+.section-block1 {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);     /* frosted glass */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+  width: 900px;
+  height: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.section-block2 {
+   background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);     /* frosted glass */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 900px;
+}
+
+.sec-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.search-bar{
+  margin-top: 70px;
+  width: 500px;
+  
+}
+
+.section-block3 {
+   background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);     /* frosted glass */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 17px;
+  border-radius: 18px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+  width: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 280px;
+  align-items: center;
+}
+
+.weather-container2{
+  display: flex;
+  gap: 20px;
+}
